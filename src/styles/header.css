@@ -1,0 +1,35 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    z-index: 99;
+    box-shadow: 0 3px 8px #0002;
+
+    background-color: white;
+    border-bottom: 1px solid var(--border-main);
+}
+
+#header .site-identification {
+    display: flex;
+    align-items: center;
+}
+
+#header .site-identification .name {
+    font-size: 2em;
+    margin-left: 20px;
+}
+
+#header .site-menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+#header .site-menu > li {
+    cursor: pointer;
+    margin: 0 18px;
+}
+#header .site-menu > li.link:hover {
+    color: var(--primary);
+}

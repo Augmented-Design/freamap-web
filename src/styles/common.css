@@ -1,0 +1,38 @@
+:root {
+    --border-main: #707070;
+    --primary: #2e8e2e;
+    --primary-bg: #f0fff0;
+    --primary-transp: #2e8e2e55;
+    --primary-transp-dark: #2e8e2eaa;
+}
+
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: "Segoe UI";
+    background-color: var(--primary-bg);
+}
+
+#content {
+    display: flex;
+    position: relative;
+}
+
+#content-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    min-height: 240px;
+    height: 45vh;
+    background-color: var(--primary);
+    background-image: url("../images/circles.png");
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+* {
+    box-sizing: border-box;
+}

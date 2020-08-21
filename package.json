@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "The web interface for using freamap API",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -14,5 +14,20 @@
   "bugs": {
     "url": "https://github.com/Augmented-Design/freamap-web/issues"
   },
-  "homepage": "https://github.com/Augmented-Design/freamap-web#readme"
+  "homepage": "https://github.com/Augmented-Design/freamap-web#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.1",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "mini-css-extract-plugin": "^0.10.0",
+    "nunjucks": "^3.2.2",
+    "sass": "^1.26.10",
+    "sass-loader": "^9.0.3",
+    "simple-nunjucks-loader": "^2.0.3",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  }
 }

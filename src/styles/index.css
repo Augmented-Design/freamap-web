@@ -1,0 +1,44 @@
+#content .home-overhead {
+    text-align: center;
+    color: var(--white);
+}
+
+#content .account-signup {
+}
+
+#content .account-signup .user-image-blank {
+    color: var(--primary);
+    /* text-shadow: 0 5px 25px var(--primary-transp); */
+    filter: drop-shadow(0 3px 10px var(--primary-transp-dark));
+}
+
+#content .account-signup .account-signup-info {
+    text-align: center;
+}
+
+#content .content-sample-container {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 0.25rem;
+    padding: 15px;
+    background-color: var(--white);
+    box-shadow: 0 5px 25px #0004;
+}
+#content .content-sample-container .content-sample {
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0 3px 20px #0504;
+    margin-bottom: 1.325rem;
+    width: 100%;
+}
+
+#content .content-sample-container .content-caption {
+    border-radius: 0.25rem;
+    z-index: 99;
+    width: 100%;
+    padding: 0.875rem 0.325rem;
+}
+
+#content .content-sample-container .content-caption .blockquote {
+    font-size: 0.875rem;
+}

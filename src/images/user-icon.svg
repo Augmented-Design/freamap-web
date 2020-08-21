@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+    width="128" height="128">
+    <path d="M19, 96 A60, 72 0 0 1 109, 96" fill="transparent"
+        stroke="currentColor" stroke-width="10px"
+        stroke-linejoin="round" stroke-linecap="round" />
+    <circle cx="64" cy="64" r="59" fill="transparent"
+        stroke="currentColor" stroke-width="10px" />
+    <circle cx="64" cy="48" r="24" fill="transparent"
+        stroke="currentColor" stroke-width="10px" />
+</svg>
