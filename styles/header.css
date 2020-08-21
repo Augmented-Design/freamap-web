@@ -1,5 +1,21 @@
 #header {
+    display: flex;
+
     background-color: white;
     height: 128px;
     border-bottom: 1px solid var(--border-main);
+}
+
+#header .header-col {
+    display: flex;
+    align-items: center;
+}
+
+#header .header-col.--left {
+    justify-self: start;
+    justify-content: start;
+}
+#header .header-col.--right {
+    justify-self: end;
+    justify-content: end;
 }
