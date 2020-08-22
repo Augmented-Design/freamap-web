@@ -8,11 +8,24 @@ config = {
     module: {
         rules: [
             {
+                test: /\.(html|njk)$/,
+                use: [
+                    'simple-nunjucks-loader'
+                ]
+            },
+            {
                 test: /\.s(a|c)ss$/,
                 use: [
                     MiniCssExtracPlugin.loader,
                     'css-loader',
                     'sass-loader'
+                ]
+            },
+            {
+                test: /\.css$/,
+                use: [
+                    MiniCssExtracPlugin.loader,
+                    'css-loader'
                 ]
             },
             {
